@@ -25,3 +25,5 @@ else
   Console.Write($"{numberB} больше, чем {numberA}");
 }
 
+//Console.Write($"{max} больше, чем {min}");
+
