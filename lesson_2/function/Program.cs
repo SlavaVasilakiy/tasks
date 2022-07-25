@@ -1,12 +1,22 @@
 ﻿
 int a = 0;
-a = int.Parse(Console.ReadLine());
+a = int.Parse(Console.ReadLine()); // Ввод числа пользователем и присваивание переменной a вводимого значения
 
-
-void Sqr(int temp, int temp2, double temp3)
+int Sqr(int temp) // функция Sqr умножает введенное число на себя
 {
-  temp2 = int.Parse(Console.ReadLine());
-  Console.WriteLine($"Sqr A it's {temp * temp}");
+  int t = temp * temp; // присваиваем переменной t произведение введеного числа на само себя
+  return t; // возвращаем значение t
 }
 
-Sqr(a, 5, 6);
+int b = 0; // вводим переменную b
+b = Sqr(a); // присваиваем переменной b значение полученное функцией Sqr
+
+
+Console.Write($"Sqr = {b}"); // выводим в консоль значение b
+
+
+
+
+
+
+Console.Write($"\nEnd of programm\n");
