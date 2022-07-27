@@ -4,3 +4,8 @@
 // 782-> 8
 // 918-> 1// 
 
+Console.WriteLine("Введите трехзначное число ");
+
+string number = Console.ReadLine()!;
+
+Console.WriteLine($"Вторая цифра = {number[1]}");

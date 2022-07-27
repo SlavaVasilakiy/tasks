@@ -5,3 +5,12 @@
 // 78 -> третьей цифры нет
 
 // 32679 -> 6
+
+Console.Write("Введи число: ");
+
+string number = Console.ReadLine()!;
+
+if (number.Length > 2) Console.WriteLine($"Третья цифра {number[2]}");
+
+else Console.WriteLine("Третьей цифры нет");
+
