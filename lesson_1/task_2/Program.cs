@@ -6,10 +6,10 @@ int numberB = 0;
 //int min = 0;
 
 Console.Write("Введите первое число ");
-numberA = int.Parse(Console.ReadLine());
+numberA = int.Parse(Console.ReadLine()!);
 
 Console.Write("Введите второе число ");
-numberB = int.Parse(Console.ReadLine());
+numberB = int.Parse(Console.ReadLine()!);
 
 if (numberA > numberB)
 

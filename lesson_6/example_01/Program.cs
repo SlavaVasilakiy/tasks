@@ -4,13 +4,13 @@
 // ❗ **Теорема о неравенстве треугольника:**каждая сторона треугольника меньше суммы двух других сторон.
 
 Console.WriteLine("Введите сторону а:");
-int userEnter1 = int.Parse(Console.ReadLine());
+int userEnter1 = int.Parse(Console.ReadLine()!);
 
 Console.WriteLine("Введите сторону b:");
-int userEnter2 = int.Parse(Console.ReadLine());
+int userEnter2 = int.Parse(Console.ReadLine()!);
 
 Console.WriteLine("Введите сторону c:");
-int userEnter3 = int.Parse(Console.ReadLine());
+int userEnter3 = int.Parse(Console.ReadLine()!);
 
 int max = userEnter1;
 if (userEnter2 >= max)

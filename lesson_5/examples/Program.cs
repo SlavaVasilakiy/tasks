@@ -2,7 +2,7 @@
 
 Console.Write($"Введите размер массива: ");
 
-int size = int.Parse(Console.ReadLine());
+int size = int.Parse(Console.ReadLine()!);
 
 int[] array = new int[size];
 
@@ -11,7 +11,7 @@ int i = 0;
 while (i < size)
 {
   Console.Write($"Введите [{i}] элемент: ");
-  int temp = int.Parse(Console.ReadLine());
+  int temp = int.Parse(Console.ReadLine()!);
   array[i] = temp;
   i++;
 }
