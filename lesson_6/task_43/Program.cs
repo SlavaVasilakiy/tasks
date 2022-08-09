@@ -13,8 +13,7 @@ double b2 = double.Parse(Console.ReadLine()!);
 
 double x = (b2 - b1) / (k1 - k2);
 
-double y1 = k1 * x + b1;
-double y2 = k2 * x + b2;
+double y = k1 * x + b1;
 
-Console.WriteLine($"{y1} {y2}");
+Console.WriteLine($"{y} {x}");
 
